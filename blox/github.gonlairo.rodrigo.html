@@ -17,34 +17,17 @@
 {{/* Tailwind styles can optionally be used with the extra step of compiling Tailwind. */}}
 {{/* Access custom front matter design options via `$block.design`. */}}
 {{/* E.g. access a `show_title` field via `$block.design.show_title`. */}}
-<!-- 
+
 <div class="flex flex-col items-center max-w-prose mx-auto gap-3 justify-center">
 
   <div class="mb-6 text-3xl font-bold text-gray-900 dark:text-white">
     {{ $title }}
   </div>
 
-  {{ with $text }}
+<!--   {{ with $text }}
     <p class="prose prose-slate lg:prose-xl dark:prose-invert max-w-prose">{{ . }}</p>
-  {{ end }}
-</div> -->
-
-
-<div class="flex flex-col md:flex-row items-center gap-6 max-w-5xl mx-auto my-8">
-  
-  {{/* Image on the left */}}
-  <div class="w-full md:w-1/2 flex-shrink-0">
-    <img src="{{ $image }}" alt="{{ $altText }}" class="w-full h-auto rounded shadow-md">
-  </div>
-
-  {{/* Text on the right */}}
-  <div class="w-full md:w-1/2 flex flex-col justify-center">
-    <div class="text-base font-bold text-gray-900 dark:text-white mb-4">
-      {{ $text }}
-    </div>
-    <div class="prose prose-slate lg:prose-xl dark:prose-invert">
-      {{ $text }}
-    </div>
-  </div>
-  
+  {{ end }} -->
 </div>
+
+
+
