@@ -1,3 +1,3 @@
-module github.com/gonlairo/rodrigo-hugo-blox
+module github.com/gonlairo/hugo-blox-rodrigo
 
 go 1.19
