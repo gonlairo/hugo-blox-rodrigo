@@ -75,7 +75,7 @@
     {{ if $avatar }}
 
     <div class="avatar-wrapper mt-10">
-      {{ $avatar_image := $avatar.Fill "150x150 Center" }}
+      {{ $avatar_image := $avatar.Fill "400x400 Center" }}
       <img class="avatar bg-white dark:bg-gray-800 p-1" src="{{ $avatar_image.RelPermalink }}" alt="{{$person_page.Title}}"
            width="{{ $avatar_image.Width }}" height="{{ $avatar_image.Height }}">
       {{with $person.status.icon}}<span class="avatar-emoji">{{.|emojify}}</span>{{end}}
